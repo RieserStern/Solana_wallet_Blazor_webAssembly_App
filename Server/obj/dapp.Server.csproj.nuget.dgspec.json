@@ -1,0 +1,258 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Server\\dapp.Server.csproj": {}
+  },
+  "projects": {
+    "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Client\\dapp.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Client\\dapp.Client.csproj",
+        "projectName": "dapp.Client",
+        "projectPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Client\\dapp.Client.csproj",
+        "packagesPath": "C:\\Users\\Rieser Stern\\.nuget\\packages\\",
+        "outputPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rieser Stern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Shared\\dapp.Shared.csproj": {
+                "projectPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Shared\\dapp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Blazored.Modal": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.TypeScript.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Solnet.Extensions": {
+              "target": "Package",
+              "version": "[0.4.8, )"
+            },
+            "Solnet.Programs": {
+              "target": "Package",
+              "version": "[0.4.8, )"
+            },
+            "Solnet.Rpc": {
+              "target": "Package",
+              "version": "[0.4.8, )"
+            },
+            "Solnet.Serum": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Solnet.Wallet": {
+              "target": "Package",
+              "version": "[0.4.8, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.14, 5.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Server\\dapp.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Server\\dapp.Server.csproj",
+        "projectName": "dapp.Server",
+        "projectPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Server\\dapp.Server.csproj",
+        "packagesPath": "C:\\Users\\Rieser Stern\\.nuget\\packages\\",
+        "outputPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rieser Stern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Client\\dapp.Client.csproj": {
+                "projectPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Client\\dapp.Client.csproj"
+              },
+              "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Shared\\dapp.Shared.csproj": {
+                "projectPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Shared\\dapp.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Shared\\dapp.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Shared\\dapp.Shared.csproj",
+        "projectName": "dapp.Shared",
+        "projectPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Shared\\dapp.Shared.csproj",
+        "packagesPath": "C:\\Users\\Rieser Stern\\.nuget\\packages\\",
+        "outputPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rieser Stern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

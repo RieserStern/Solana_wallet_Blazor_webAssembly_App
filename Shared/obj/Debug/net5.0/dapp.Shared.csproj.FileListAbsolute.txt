@@ -1,0 +1,12 @@
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\bin\Debug\net5.0\dapp.Shared.deps.json
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\bin\Debug\net5.0\dapp.Shared.dll
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\bin\Debug\net5.0\dapp.Shared.pdb
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\obj\Debug\net5.0\dapp.Shared.csproj.AssemblyReference.cache
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\obj\Debug\net5.0\dapp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\obj\Debug\net5.0\dapp.Shared.AssemblyInfoInputs.cache
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\obj\Debug\net5.0\dapp.Shared.AssemblyInfo.cs
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\obj\Debug\net5.0\dapp.Shared.csproj.CoreCompileInputs.cache
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\obj\Debug\net5.0\dapp.Shared.dll
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\obj\Debug\net5.0\refint\dapp.Shared.dll
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\obj\Debug\net5.0\dapp.Shared.pdb
+E:\VisualStudio\GitHub_Samples\blazor-wasm-dapp-scaffold\blazor-wasm-dapp-scaffold-main\dapp\Shared\obj\Debug\net5.0\ref\dapp.Shared.dll
