@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Blazored.Modal/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -479,7 +479,7 @@
       },
       "dapp.Client/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Blazored.Modal": "6.0.1",
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.10",
@@ -500,7 +500,7 @@
       },
       "dapp.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/dapp.Shared.dll": {}
         },
@@ -1219,7 +1219,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.10",
       "dapp.Client >= 1.0.0",
       "dapp.Shared >= 1.0.0"
@@ -1247,15 +1247,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Client\\dapp.Client.csproj": {
               "projectPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Client\\dapp.Client.csproj"
@@ -1273,8 +1273,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",

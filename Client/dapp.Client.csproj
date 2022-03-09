@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <JsLibRoot>JsLib\</JsLibRoot>
     <TypeScriptToolsVersion>3.2</TypeScriptToolsVersion>
     <AssemblyName>dapp.Client</AssemblyName>

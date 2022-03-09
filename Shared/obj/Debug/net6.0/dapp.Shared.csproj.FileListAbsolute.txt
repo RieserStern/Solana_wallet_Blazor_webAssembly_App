@@ -1,0 +1,12 @@
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\bin\Debug\net6.0\dapp.Shared.deps.json
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\bin\Debug\net6.0\dapp.Shared.dll
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\bin\Debug\net6.0\dapp.Shared.pdb
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\obj\Debug\net6.0\dapp.Shared.csproj.AssemblyReference.cache
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\obj\Debug\net6.0\dapp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\obj\Debug\net6.0\dapp.Shared.AssemblyInfoInputs.cache
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\obj\Debug\net6.0\dapp.Shared.AssemblyInfo.cs
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\obj\Debug\net6.0\dapp.Shared.csproj.CoreCompileInputs.cache
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\obj\Debug\net6.0\dapp.Shared.dll
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\obj\Debug\net6.0\refint\dapp.Shared.dll
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\obj\Debug\net6.0\dapp.Shared.pdb
+E:\Blockchain\Solana\Lydian_Project\Solana_wallet_Blazor_webAssembly_App\Shared\obj\Debug\net6.0\ref\dapp.Shared.dll

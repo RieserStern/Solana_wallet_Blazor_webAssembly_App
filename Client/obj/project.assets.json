@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Blazored.Modal/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -477,7 +477,7 @@
       },
       "dapp.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/dapp.Shared.dll": {}
         },
@@ -486,7 +486,7 @@
         }
       }
     },
-    "net5.0/browser-wasm": {
+    "net6.0/browser-wasm": {
       "Blazored.Modal/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -962,7 +962,7 @@
       },
       "dapp.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/dapp.Shared.dll": {}
         },
@@ -1803,7 +1803,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Blazored.Modal >= 6.0.1",
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.10",
@@ -1839,15 +1839,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Shared\\dapp.Shared.csproj": {
               "projectPath": "E:\\Blockchain\\Solana\\Lydian_Project\\Solana_wallet_Blazor_webAssembly_App\\Shared\\dapp.Shared.csproj"
@@ -1862,8 +1862,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Blazored.Modal": {
             "target": "Package",
@@ -1921,8 +1921,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-            "version": "[5.0.14, 5.0.14]"
+            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+            "version": "[6.0.2, 6.0.2]"
           }
         ],
         "frameworkReferences": {
