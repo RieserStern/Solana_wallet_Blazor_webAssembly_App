@@ -1,9 +1,16 @@
-﻿import { BaseSignerWalletAdapter, BaseWalletAdapter, EventEmitter, MessageSignerWalletAdapter, SendTransactionOptions, SignerWalletAdapter, WalletAdapter, WalletAdapterEvents } from '@solana/wallet-adapter-base';
-import { PhantomWalletAdapter, PhantomWalletAdapterConfig } from '@solana/wallet-adapter-phantom';
-import { SolflareWalletAdapter, SolflareWalletAdapterConfig } from '@solana/wallet-adapter-solflare';
-import { SolletWalletAdapter, SolletWalletAdapterConfig } from '@solana/wallet-adapter-sollet';
-import { SolongWalletAdapter, SolongWalletAdapterConfig } from '@solana/wallet-adapter-solong';
+import { BaseSignerWalletAdapter, BaseWalletAdapter, EventEmitter, MessageSignerWalletAdapter, SendTransactionOptions, SignerWalletAdapter, WalletAdapter, WalletAdapterEvents, WalletName, WalletReadyState } from '@solana/wallet-adapter-base';
 import { Connection, Message, PublicKey, Transaction, TransactionInstruction, AccountMeta } from "@solana/web3.js";
+
+import {
+    LedgerWalletAdapter,
+    PhantomWalletAdapter,
+    SlopeWalletAdapter,
+    SolflareWalletAdapter,
+    SolletExtensionWalletAdapter,
+    SolletWalletAdapter,
+    SolongWalletAdapter,
+    TorusWalletAdapter,
+} from '@solana/wallet-adapter-wallets';
 
 export function getWalletAdapterClass(name): WalletAdapterClass {
     var k = new WalletAdapterClass(name);
@@ -13,10 +20,13 @@ function ToBase64(u8) {
     return btoa(String.fromCharCode.apply(null, u8));
 }
 declare class Adapter extends BaseWalletAdapter {
+    name: WalletName;
+    url: string;
+    icon: string;
+    readyState: WalletReadyState;
     publicKey: PublicKey;
-    ready: boolean;
     connecting: boolean;
-    connected: boolean;
+    get connected(): boolean;
     connect(): Promise<void>;
     disconnect(): Promise<void>;
     sendTransaction(transaction: Transaction, connection: Connection, options?: SendTransactionOptions): Promise<string>;    

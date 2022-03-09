@@ -8,10 +8,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import { BaseWalletAdapter } from '@solana/wallet-adapter-base';
-import { PhantomWalletAdapter } from '@solana/wallet-adapter-phantom';
-import { SolletWalletAdapter } from '@solana/wallet-adapter-sollet';
-import { SolongWalletAdapter } from '@solana/wallet-adapter-solong';
 import { Message, Transaction } from "@solana/web3.js";
+import { PhantomWalletAdapter, SolletWalletAdapter, SolongWalletAdapter, } from '@solana/wallet-adapter-wallets';
 export function getWalletAdapterClass(name) {
     var k = new WalletAdapterClass(name);
     return k;
