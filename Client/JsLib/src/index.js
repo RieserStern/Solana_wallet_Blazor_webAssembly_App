@@ -54,6 +54,8 @@ class WalletAdapterClass {
     }
     signTransaction(message) {
         return __awaiter(this, void 0, void 0, function* () {
+            alert(0);
+            console.log(message);
             var msg1 = Message.from(Uint8Array.from(atob(message), c => c.charCodeAt(0)));
             var tx = Transaction.populate(msg1, [this.adapter.publicKey.toString()]);
             tx.compileMessage();

@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Client\\JsLib",
+    "\\Client\\JsLib\\src",
+    "\\Client\\Pages",
+    "\\Client\\Services",
+    "\\Client\\Shared",
+    "\\Client\\wwwroot",
+    "\\Server\\bin\\Debug\\net5.0"
   ],
-  "SelectedNode": "\\E:\\VisualStudio\\GitHub_Samples\\blazor-wasm-dapp-scaffold\\blazor-wasm-dapp-scaffold-main\\dapp",
+  "SelectedNode": "\\dapp.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -208,14 +208,14 @@
       "netstandard.dll": "sha256-+9Yr\/gSP3tCZAMbOdAcGhHGuMcyg\/AaxVKtt3tGsvao=",
       "System.Private.CoreLib.dll": "sha256-SnxOe5QK250duVAQOw0iWr1sODhUuVEUykExQyQ\/WSk=",
       "dapp.Shared.dll": "sha256-AdVyAj2S4vg+AIL1jNw7Rf9S+BvV8kb7YvbXkayqbmI=",
-      "dapp.Client.dll": "sha256-o9XL4qKL\/rFIqPogmcD8QjxNJm4Prm6odlJOqG3xhMs="
+      "dapp.Client.dll": "sha256-VneAMBuy\/nOpkKPWOFPZc1kx\/02Mco8ADQRo5sx9W\/8="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "dapp.Shared.pdb": "sha256-BLw0s8YEbkl5N2SiGqfvydTkbVO672iKn4yBg4HM4zQ=",
-      "dapp.Client.pdb": "sha256-UgMfHCwtsi7XUqAmfJVI9GYUC3ISXSPggB4s7LjbWo0="
+      "dapp.Client.pdb": "sha256-xcz5aBx0w1HLU3TzDcJd7ePvRTzgDSE0Sh3YXMzQlo0="
     },
     "runtime": {
       "dotnet.6.0.2.cdqll0yfwb.js": "sha256-wbTVn69TU0+WI83iB+kky8tf\/BjZdYJeM0rUP96ur\/c=",
